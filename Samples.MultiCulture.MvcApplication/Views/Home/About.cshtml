@@ -1,7 +1,8 @@
-﻿@{
-    ViewBag.Title = "About";
+﻿@using AboutResources = Samples.MultiCulture.MvcApplication.Resources.Home.About
+@{
+    ViewBag.Title = AboutResources.Title;
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<p>@AboutResources.AdditionalInfos</p>

@@ -17,5 +17,6 @@ namespace Samples.MultiCulture.MvcApplication
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
     }
 }
